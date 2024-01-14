@@ -64,7 +64,11 @@ const ProjectsSection = () => {
 
   const handleTagChange = (newTag) => {
     setTag(newTag);
-  };
+    };
+    
+    const filteredProjects = projectsData.filter((project) =>
+      project.tag.includes(tag)
+    );
 
   return (
     <section id="projects">
@@ -89,7 +93,7 @@ const ProjectsSection = () => {
         />
       </div>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        {projectsData.map((project, index) => (
+        {filteredProjects.map((project, index) => (
           <ProjectCard
             key={project.id}
             title={project.title}
