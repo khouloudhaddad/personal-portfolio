@@ -13,6 +13,7 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-jquery-plugin": "^1.1.7",
     "react-type-animation": "^3.2.0"
   },
   "devDependencies": {
