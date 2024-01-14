@@ -92,8 +92,8 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        {filteredProjects.map((project, index) => (
+      <ul className="grid md:grid-cols-3 gap-8 md:gap-12 mt-10">
+        {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}
@@ -103,7 +103,7 @@ const ProjectsSection = () => {
             previewUrl={project.previewUrl}
           />
         ))}
-      </div>
+      </ul>
     </section>
   );
 };
