@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
+
 const HeroSection = () => {
   return (
     <section>
@@ -11,7 +14,23 @@ const HeroSection = () => {
               Hello, I&apos;m{" "}
             </span>
             <br></br>
-            khouloud
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "khouloud",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "Team Leader",
+                1000,
+                "Senior Web Developer",
+                1000,
+                "I turn ideas into Apps",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: "0.85em", display: "inline-block" }}
+              repeat={Infinity}
+            />
           </h1>
           <p className="text-[#ABB7BE] text-base sm:text-lg lg:text-xl mb-6">
             Senior Full Stack Developer with over 10 years of experience in
