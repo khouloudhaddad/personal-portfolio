@@ -1,5 +1,8 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
+"use client"
+import React, { useState } from "react";
+import ProjectCard from "./ProjectCard";
+import ProjectTag from "./ProjectTag";
+
 const projectsData = [
   {
     id: 1,
@@ -57,11 +60,34 @@ const projectsData = [
   },
 ];
 const ProjectsSection = () => {
+  const [tag, setTag] = useState("All");
+
+  const handleTagChange = (newTag) => {
+    setTag(newTag);
+  };
+
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My projects
       </h2>
+      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+        <ProjectTag
+          onClick={handleTagChange}
+          name="All"
+          isSelected={tag === "All"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Web"
+          isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Mobile"
+          isSelected={tag === "Mobile"}
+        />
+      </div>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         {projectsData.map((project, index) => (
           <ProjectCard
@@ -76,6 +102,6 @@ const ProjectsSection = () => {
       </div>
     </section>
   );
-}
+};
 
-export default ProjectsSection
+export default ProjectsSection;
