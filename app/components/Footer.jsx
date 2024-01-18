@@ -1,10 +1,18 @@
 import React from 'react'
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="container mx-auto p-12 flex justify-between">
-        <span>Khouloud H.</span>
+        <Link
+          href={"/"}
+          className="flex items-end text-[#8b8b8b] text-lg md:text-3xl text-white font-semibold"
+        >
+          <Image src="/images/LOGO.png" width={50} height={50} />
+          ouloud
+        </Link>
         <p className="text-wjite">All rights reserved &copy;2024</p>
       </div>
     </footer>

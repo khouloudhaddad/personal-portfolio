@@ -49,7 +49,7 @@ const TAB_CONTENT = [
         <li>
           <div className="w-100 flex justify-between items-center mb-3">
             Team Leader and Full Stack Developer{" "}
-            <span className="flex justify-between items-center text-purple-700">
+            <span className="flex justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -65,14 +65,14 @@ const TAB_CONTENT = [
                 />
               </svg>{" "}
               Azurreo |&nbsp;
-              <span className="text-pink-400 text-sm">8 mos</span>
+              <span className="text-secondary-400 text-sm">8 mos</span>
             </span>
           </div>
         </li>
         <li>
           <div className="w-100 flex justify-between items-center mb-3">
             Full Stack Developer{" "}
-            <span className="flex justify-between items-center text-purple-700">
+            <span className="flex justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -88,14 +88,14 @@ const TAB_CONTENT = [
                 />
               </svg>{" "}
               Atsu Studio |&nbsp;
-              <span className="text-pink-400 text-sm">3 yrs 2 mos</span>
+              <span className="text-secondary-400 text-sm">3 yrs 2 mos</span>
             </span>
           </div>
         </li>
         <li>
           <div className="w-100 flex justify-between items-center mb-3">
             Full Stack Developer{" "}
-            <span className="flex justify-between items-center text-purple-700">
+            <span className="flex justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -111,14 +111,14 @@ const TAB_CONTENT = [
                 />
               </svg>{" "}
               SwConsulting |&nbsp;
-              <span className="text-pink-400 text-sm">2 yrs 9 mos</span>
+              <span className="text-secondary-400 text-sm">2 yrs 9 mos</span>
             </span>
           </div>
         </li>
         <li>
           <div className="w-100 flex justify-between items-center mb-3">
             PHP Developer{" "}
-            <span className="flex justify-between items-center text-purple-700">
+            <span className="flex justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -134,14 +134,14 @@ const TAB_CONTENT = [
                 />
               </svg>{" "}
               Infogest développement |&nbsp;
-              <span className="text-pink-400 text-sm">8 mos</span>
+              <span className="text-secondary-400 text-sm">8 mos</span>
             </span>
           </div>
         </li>
         <li>
           <div className="w-100 flex justify-between items-center mb-3">
             Software Engineer{" "}
-            <span className="flex justify-between items-center text-purple-700">
+            <span className="flex justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -157,7 +157,7 @@ const TAB_CONTENT = [
                 />
               </svg>{" "}
               Prestige Concepts |&nbsp;
-              <span className="text-pink-400 text-sm">3 yrs</span>
+              <span className="text-secondary-400 text-sm">3 yrs</span>
             </span>
           </div>
         </li>
