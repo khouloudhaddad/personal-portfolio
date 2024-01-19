@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="flex items-end text-[#808080] text-xl md:text-4xl text-white font-semibold"
         >
-          <Image src="/images/mainLogo.png" width={70} height={70} />
+          <Image src="/images/mainLogo.png" width={70} height={70} alt="Logo" />
           ouloud
         </Link>
         {/* Mobile meu */}

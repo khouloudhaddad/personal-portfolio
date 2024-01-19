@@ -10,7 +10,7 @@ const Footer = () => {
           href={"/"}
           className="flex items-end text-[#808080] text-lg md:text-3xl text-white font-semibold"
         >
-          <Image src="/images/mainLogo.png" width={50} height={50} />
+          <Image src="/images/mainLogo.png" width={50} height={50} alt="Logo" />
           ouloud
         </Link>
         <p className="text-wjite">All rights reserved &copy;2024</p>

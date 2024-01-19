@@ -10,22 +10,22 @@ const TAB_CONTENT = [
     content: (
       <div className="flex justify-between">
         <ul className="list-disc pl-2">
-          <li>PHP</li>
-          <li>Laravel / Symfony</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>Angular 8+</li>
-          <li>Vue 2+</li>
-          <li>React / Next</li>
+          <li className=" mb-3">PHP</li>
+          <li className=" mb-3">Laravel / Symfony</li>
+          <li className=" mb-3">Node.js</li>
+          <li className=" mb-3">Express</li>
+          <li className=" mb-3">Angular 8+</li>
+          <li className=" mb-3">Vue 2+</li>
+          <li className=" mb-3">React / Next</li>
+          <li className=" mb-3">Prestshop 1.6+</li>
+          <li className=" mb-3">WordPress</li>
+          <li className=" mb-3">QA</li>
+          <li className=" mb-3">C#</li>
+          <li className=" mb-3">JAVA</li>
         </ul>
         <ul className="list-disc pl-2">
-          <li>Prestshop 1.6+</li>
-          <li>WordPress</li>
-          <li>QA</li>
-          <li>Git / Gitlab / BitBucket</li>
-          <li>C#</li>
-          <li>JAVA</li>
-          <li>MySQL / PostgreSQL / MongoDB / Firebase</li>
+          <li className=" mb-3">Git / Gitlab / BitBucket</li>
+          <li className=" mb-3">MySQL / PostgreSQL / MongoDB / Firebase</li>
         </ul>
       </div>
     ),
@@ -35,9 +35,9 @@ const TAB_CONTENT = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>FST, Software engineer (2009 - 2012)</li>
-        <li>IPEIM, Preparatory Diploma (Maths-Physics)</li>
-        <li>Bachelor's degree (Maths-Physics)</li>
+        <li className=" mb-3">FST, Software engineer (2009 - 2012)</li>
+        <li className=" mb-3">IPEIM, Preparatory Diploma (Maths-Physics)</li>
+        <li className=" mb-3">Bachelor's degree (Maths-Physics)</li>
       </ul>
     ),
   },
@@ -176,8 +176,15 @@ const AboutSection = () => {
   };
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
+        <Image
+          src="/images/about-image.png"
+          width="0"
+          height="0"
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
+          alt="About me"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
