@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="flex items-end text-[#8b8b8b] text-xl md:text-4xl text-white font-semibold"
+          className="flex items-end text-[#808080] text-xl md:text-4xl text-white font-semibold"
         >
           <Image src="/images/LOGO.png" width={70} height={70} />
           ouloud

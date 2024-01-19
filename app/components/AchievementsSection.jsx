@@ -13,20 +13,22 @@ const achievementsList = [
   {
     metric: "Projects",
     value: "100",
-    postfix: "+",
+    prefix: "+",
   },
   {
     prefix: "~",
-    metric: "Users",
+    metric: "Clients",
     value: "100,000",
   },
   {
-    metric: "Awards",
+    metric: "Companies",
     value: "7",
+    prefix: "+",
   },
   {
     metric: "Years",
-    value: "5",
+    value: "10",
+    prefix: "+",
   },
 ];
 
