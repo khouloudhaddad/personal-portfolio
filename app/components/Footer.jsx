@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container items-center mx-auto md:p-12 px-4 py-12 flex justify-between">
         <Link
           href={"/"}
-          className="flex items-end text-[#808080] text-lg md:text-3xl text-white font-semibold"
+          className="flex items-end text-light-gray text-lg md:text-3xl text-white font-semibold"
         >
           <Image src="/images/mainLogo.png" width={45} height={45} alt="Logo" />
           ouloud

@@ -32,3 +32,6 @@ body {
 .border-top{
   border: 1px 0 0 0 solid #33353F;
 }
+.text-light-gray{
+  color: #808080;
+}
