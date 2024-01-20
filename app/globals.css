@@ -35,3 +35,6 @@ body {
 .text-light-gray{
   color: #808080;
 }
+nav, footer{
+  border-color: #33353F;
+}
