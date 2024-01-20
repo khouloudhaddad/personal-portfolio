@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Atsu Labs",
-    description: "Project 2 description",
+    description: "Laravel App for Corona Tests online labs reservation",
     image: "/images/projects/AL-Home-1.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
