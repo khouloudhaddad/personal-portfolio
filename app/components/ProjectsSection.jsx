@@ -35,8 +35,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Food Delivery Application",
+    description: "React Native application for food delivery",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
