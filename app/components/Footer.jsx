@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="footer border-t z-10 border-top border-l-transparent border-r-transparent border-b-transparent text-white">
+    <footer className="footer border-top z-10 border-l-transparent border-r-transparent border-b-transparent text-white">
       <div className="container items-center mx-auto md:p-12 px-4 py-12 flex justify-between">
         <Link
           href={"/"}
