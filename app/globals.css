@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.bg-custom{
+  background-color: #121212;
+}
+.border-top{
+  border: 1px 0 0 0 solid #33353F;
+}
