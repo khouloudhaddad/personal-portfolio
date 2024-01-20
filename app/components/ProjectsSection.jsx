@@ -29,7 +29,7 @@ const projectsData = [
     description:
       "IONIC/Angular web application for a medical ecommerce website",
     image: "/images/projects/Home-1.jpg",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
