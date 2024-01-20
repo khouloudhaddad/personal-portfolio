@@ -25,9 +25,10 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    title: "Medical zone Web Application",
+    description:
+      "IONIC/Angular web application for a medical ecommerce website",
+    image: "/images/projects/Home-1.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -100,7 +101,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 mt-10">
+      <ul ref={ref} className="grid md:grid-cols-4 gap-8 md:gap-12 mt-10">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
