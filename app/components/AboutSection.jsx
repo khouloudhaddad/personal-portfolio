@@ -47,16 +47,16 @@ const TAB_CONTENT = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          <div className="w-100 flex justify-between items-center mb-3">
+          <div className="w-100 md:flex justify-between items-center mb-3">
             Team Leader and Full Stack Developer{" "}
-            <span className="flex justify-between items-center text-primary-700">
+            <span className="flex md:justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 mr-2"
               >
                 <path
                   strokeLinecap="round"
@@ -70,16 +70,16 @@ const TAB_CONTENT = [
           </div>
         </li>
         <li>
-          <div className="w-100 flex justify-between items-center mb-3">
+          <div className="w-100 md:flex justify-between items-center mb-3">
             Full Stack Developer{" "}
-            <span className="flex justify-between items-center text-primary-700">
+            <span className="flex md:justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 mr-2"
               >
                 <path
                   strokeLinecap="round"
@@ -93,16 +93,16 @@ const TAB_CONTENT = [
           </div>
         </li>
         <li>
-          <div className="w-100 flex justify-between items-center mb-3">
+          <div className="w-100 md:flex justify-between items-center mb-3">
             Full Stack Developer{" "}
-            <span className="flex justify-between items-center text-primary-700">
+            <span className="flex md:justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 mr-2"
               >
                 <path
                   strokeLinecap="round"
@@ -116,16 +116,16 @@ const TAB_CONTENT = [
           </div>
         </li>
         <li>
-          <div className="w-100 flex justify-between items-center mb-3">
+          <div className="w-100 md:flex justify-between items-center mb-3">
             PHP Developer{" "}
-            <span className="flex justify-between items-center text-primary-700">
+            <span className="flex md:justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 mr-1"
               >
                 <path
                   strokeLinecap="round"
@@ -139,16 +139,16 @@ const TAB_CONTENT = [
           </div>
         </li>
         <li>
-          <div className="w-100 flex justify-between items-center mb-3">
+          <div className="w-100 md:flex justify-between items-center mb-3">
             Software Engineer{" "}
-            <span className="flex justify-between items-center text-primary-700">
+            <span className="flex md:justify-between items-center text-primary-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-5 h-5 mr-1"
               >
                 <path
                   strokeLinecap="round"
@@ -177,18 +177,15 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="lg:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
-        <div className="rounded-full bg-[#181818] p-4">
-          <Image
-            src="/images/about-image.png"
-            width="0"
-            height="0"
-            sizes="100vw"
-            style={{ width: "100%", height: "auto" }}
-            alt="About me"
-            className="rounded-full"
-          />
-        </div>
-
+        <Image
+          src="/images/about-image.png"
+          width="0"
+          height="0"
+          sizes="100vw"
+          style={{ width: "100%", height: "auto" }}
+          alt="About me"
+          className="rounded-lg"
+        />
         <div className="mt-4 lg:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg md:text-left text-justify">

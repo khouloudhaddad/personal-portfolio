@@ -16,9 +16,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Atsu Labs",
     description: "Project 2 description",
-    image: "/images/projects/2.png",
+    image: "/images/projects/AL-Home-1.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
